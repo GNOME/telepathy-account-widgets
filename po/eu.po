@@ -6,20 +6,19 @@
 # Mikel Olasagasti <mikel@olasagasti.info>, 2013.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2003, 2004, 2006, 2007, 2008, 2009, 2010.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2011, 2012, 2013, 2017.
+# Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2021.
+#
 msgid ""
-msgstr ""
-"Project-Id-Version: eu\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=empathy&keywords=I18N+L10N&component=tp-aw\n"
-"POT-Creation-Date: 2017-02-03 21:05+0000\n"
-"PO-Revision-Date: 2017-02-13 20:24+0100\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
+msgstr "Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/telepathy-account-widgets/issues\n"
+"POT-Creation-Date: 2020-07-19 13:01+0000\n"
+"PO-Revision-Date: 2021-05-03 10:00+0100\n"
+"Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
 "Language-Team: Basque <librezale@librezale.eus>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
@@ -376,12 +375,12 @@ msgstr "Gehitu..."
 msgid "Remove"
 msgstr "Kendu"
 
-#. Translators: tooltip on a
+#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
 msgid "Up"
 msgstr "Gora"
 
-#. Translators: tooltip on a
+#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
 msgid "Down"
 msgstr "Behera"
@@ -391,15 +390,10 @@ msgid "Servers"
 msgstr "Zerbitzariak"
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
-#| msgid ""
-#| "Most IRC servers don't need a password, so if you're not sure, don't "
-#| "enter a password."
 msgid ""
 "Most IRC servers don’t need a password, so if you’re not sure, don’t enter a "
 "password."
-msgstr ""
-"IRC zerbitzari gehienek ez dute pasahitzik eskatzen. Ziur ez bazaude, ez "
-"sartu pasahitzik."
+msgstr "IRC zerbitzari gehienek ez dute pasahitzik eskatzen. Ziur ez bazaude, ez sartu pasahitzik."
 
 #: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
 msgid "Nickname"
@@ -455,7 +449,7 @@ msgstr "_Baliabidea"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
 msgid "Encr_yption required (TLS/SSL)"
-msgstr "_Enkriptatzea behar da (TLS/SSL)"
+msgstr "_Zifratzea behar da (TLS/SSL)"
 
 #: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
 msgid "Override server settings"
@@ -652,17 +646,14 @@ msgstr "Zein da zure Yahoo! pasahitza?"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:587
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:672
-#| msgid "Couldn't convert image"
 msgid "Couldn’t convert image"
 msgstr "Ezin izan da irudia bihurtu"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:588
 msgid "None of the accepted image formats are supported on your system"
-msgstr ""
-"Onartutako irudi-formatuetatik bat berak ere ez du euskarririk sisteman"
+msgstr "Onartutako irudi-formatuetatik bat berak ere ez du euskarririk sisteman"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:948
-#| msgid "Couldn't save picture to file"
 msgid "Couldn’t save picture to file"
 msgstr "Ezin izan da irudia fitxategian gorde"
 
@@ -671,7 +662,6 @@ msgid "Select Your Avatar Image"
 msgstr "Hautatu zure avatar irudia"
 
 #: ../tp-account-widgets/tpaw-avatar-chooser.c:1079
-#| msgid "Take a picture..."
 msgid "Take a picture…"
 msgstr "Hartu argazkia…"
 
@@ -688,8 +678,6 @@ msgid "All Files"
 msgstr "Fitxategi guztiak"
 
 #: ../tp-account-widgets/tpaw-calendar-button.c:63
-#| msgctxt "verb displayed on a button to select an IRC network"
-#| msgid "Select"
 msgid "Select…"
 msgstr "Hautatu…"
 
@@ -770,15 +758,15 @@ msgstr "taldea"
 msgid "New Network"
 msgstr "Sare berria"
 
-#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:528
 msgid "Choose an IRC network"
 msgstr "Aukeratu IRC sarea"
 
-#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:614
 msgid "Reset _Networks List"
 msgstr "Berrezarri _sareen zerrenda"
 
-#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:618
 msgctxt "verb displayed on a button to select an IRC network"
 msgid "Select"
 msgstr "Hautatu"
@@ -803,7 +791,6 @@ msgstr "BM-ko '%s' kontuaren pasahitza (%s)"
 
 #: ../tp-account-widgets/tpaw-keyring.c:621
 #, c-format
-#| msgid "Password for chatroom '%s' on account %s (%s)"
 msgid "Password for chatroom “%s” on account %s (%s)"
 msgstr "“%s“ berriketa-gelako “%s“ kontuaren pasahitza (%s)"
 
@@ -868,9 +855,7 @@ msgstr "Jar zaitez linean zure informazio pertsonala editatzeko."
 
 #: ../tp-account-widgets/tpaw-user-info.c:517
 msgid "These details will be shared with other users on this chat network."
-msgstr ""
-"Xehetasun hauek berriketa honen sareko beste erabiltzaileekin partekatuko "
-"dira."
+msgstr "Xehetasun hauek berriketa honen sareko beste erabiltzaileekin partekatuko dira."
 
 #. Setup id label
 #: ../tp-account-widgets/tpaw-user-info.c:526
@@ -886,15 +871,15 @@ msgstr "Aliasa"
 msgid "<b>Personal Details</b>"
 msgstr "<b>Xehetasun pertsonalak</b>"
 
-#: ../tp-account-widgets/tpaw-utils.c:118
+#: ../tp-account-widgets/tpaw-utils.c:122
 msgid "People Nearby"
 msgstr "Inguruko pertsonak"
 
-#: ../tp-account-widgets/tpaw-utils.c:123
+#: ../tp-account-widgets/tpaw-utils.c:127
 msgid "Yahoo! Japan"
 msgstr "Yahoo! Japonia"
 
-#: ../tp-account-widgets/tpaw-utils.c:160
+#: ../tp-account-widgets/tpaw-utils.c:165
 msgid "Google Talk"
 msgstr "Google Talk"
 
